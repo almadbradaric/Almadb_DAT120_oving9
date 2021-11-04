@@ -11,6 +11,7 @@ def read_question_file(question_file):
     return questions
 
 
+
 if __name__ == '__main__':
     questions = read_question_file('sporsmaalsfil.txt')
     points1 = 0
