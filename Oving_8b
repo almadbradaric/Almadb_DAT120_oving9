@@ -18,7 +18,7 @@ class MultipleChoice:
         if self.correct_answer == str(chosen_answer):
             return 'Korrekt'
         else:
-            return 'Galt'
+            return 'Galt' 
         
     def korrekt_svar_tekst(self):
         return self.answer_list[int(self.correct_answer)]
